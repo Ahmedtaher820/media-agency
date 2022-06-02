@@ -1,0 +1,21 @@
+$(".testimonials-carousel").owlCarousel({
+        center: true,
+        autoplay:true,
+        autoplayTimeout:1000,
+        autoplayHoverPause:true,
+        dots: false,
+        loop: true,
+        nav:true,
+        smartSpeed: 300,    
+        responsive: {
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+    });
