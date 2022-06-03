@@ -50,7 +50,6 @@ header {
 }
 header nav {
   width: 100%;
-  height: 80px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -64,13 +63,12 @@ header nav {
   transition: all 0.3s ease-in-out;
 }
 .transparentNav {
-  background-color: transparent;
-  color: white;
+  background-color: white;
   box-shadow: none;
-  padding: 50px;
+  padding: 0px;
 }
 nav.transparentNav .nav-all ul li a {
-  color: white;
+  color: black;
 }
 nav.transparentNav .nav-all .social li {
   color: white;
